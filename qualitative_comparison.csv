@@ -1,0 +1,28 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một phần của AI, là một kỹ thuật tập hợp các quy tắc để máy học được các quy tắc và từ đó, tự cải thiện. Nó cho phép máy tự học được các quy tắc từ dữ liệu mà không cần phải được chỉ định bằng cách viết mã. Machine learning có thể được chia thành ba loại chính: phân loại, dự đoán","Machine learning là một khái niệm trong trí tuệ nhân tạo, tập trung vào việc dạy máy tính học từ dữ liệu và tự cải thiện dựa trên kinh nghiệm. Nó không chỉ dựa trên các chương trình hướng dẫn sẵn mà còn có thể học từ dữ liệu và tự thay đổi hoặc cải thiện khả năng của mình. Trong khi trí tuệ nhân tạo"
+Viết đoạn code Python tính số Fibonacci thứ n.,"Để tính số Fibonacci thứ n, bạn có thể sử dụng hàm đệ quy hoặc vòng lặp. Đây là một ví dụ về hàm đệ quy: ```python
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+```
+Để tính số Fibonacci thứ n bằng cách sử ","```python
+def fibonacci(n):
+    if n <= 0:
+        return ""Không thể tìm ra số Fibonacci thứ n < 0.""
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        fib = [0, 1]
+        for i in range(2, n):
+            fib.append(fib[i-1] + fib[i-2])
+        return fib[n-1]
+``"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. **Ngôn ngữ**: UI/UX thiết kế cần được hướng đến người dùng, có nghĩa là ngôn ngữ của nó phải dễ hiểu và thân thiện với người dùng. 2. **Giới hạn**: UI/UX thiết kế phải được thiết kế để giúp người dùng thực hiện các hành động một cách dễ dàng và thuận tiện. 3. **Cảm xúc**: UI/UX thiết kế nên tạo r",1. 用户体验至上：UI/UX设计应以用户为中心，以确保产品易于使用、直观和易于理解。2. 易用性：设计应使用户能够轻松地完成任务，而无需太多操作。3. 简洁性：UI/UX设计应简洁，避免过度复杂化。4. 可访问性：设计应考虑到各种用户群体的需求，包括那些有视觉障碍或认知障碍的人。5. 响应性：设计应适应各种设备和屏幕大小，以确保用户可以在任何设备上获得一致的体验。
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,"LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai phương pháp cải tiến về hiệu năng được sử dụng để cải thiện hiệu suất của mô hình ngôn ngữ tự nhiên bằng cách sử dụng ít thông tin hơn. LoRA được thiết kế để sử dụng ít thông tin hơn trong việc thay đổi các trọng số của mô hình, bằng cách t",LoRA (Large Language Model Adapter) và QLoRA (Quantized LoRA) là hai phương pháp khác nhau để cài đặt và cải thiện hiệu suất của mô hình NLP lớn. LoRA là một phương pháp cài đặt mà sử dụng các mô đun nhỏ hơn thay thế các mô đun lớn của mô hình NLP. LoRA được sử dụng để cải thiện hiệu suất và giảm số
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt engineering, RAG (Reinforcement, Adaptation, and Generation), và fine-tuning là ba cách tiếp cận khác nhau để cải thiện hiệu quả của các mô hình AI. 1. Prompt engineering: Prompt engineering là kỹ thuật để cải thiện hiệu quả của mô hình AI bằng cách sử dụng các câu lệnh để hướng dẫn mô hình l","Prompt engineering, RAG (Retrieval Augmented Generation), và fine-tuning là ba kỹ thuật khác nhau trong lĩnh vực NLP (Nghiên cứu và Phát triển NLP) mà có thể được sử dụng để cải thiện hiệu quả của mô hình NLP. Prompt engineering là kỹ thuật để cải thiện hiệu quả của mô hình bằng cách cung cấp cho mô"
